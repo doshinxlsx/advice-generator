@@ -1,14 +1,13 @@
-import { useState } from 'react';
+import { AppContainer } from './styles';
 import GlobalStyle from './globalStyles';
+import Card from './components/card';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
+    <AppContainer>
       <GlobalStyle />
-      <h2>Hello World</h2>
-    </>
+      <Card />
+    </AppContainer>
   );
 }
 
