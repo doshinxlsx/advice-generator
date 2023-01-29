@@ -1,13 +1,15 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import GlobalStyle from './globalStyles';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
-    <div>
+    <>
+      <GlobalStyle />
       <h2>Hello World</h2>
-    </div>
-  )
+    </>
+  );
 }
 
-export default App
+export default App;
