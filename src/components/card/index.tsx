@@ -1,5 +1,7 @@
 import React from 'react';
-import { AdviceNumber, Button, CardContainer, Message } from './styles';
+import ButtonIcon from './components/buttonIcon';
+import Divider from './components/divider';
+import { AdviceNumber, DiceButton, CardContainer, Message, DividerContainer } from './styles';
 
 const Card = () => (
   <CardContainer>
@@ -8,7 +10,13 @@ const Card = () => (
       "It is easy to sit up and take notice, what's difficult is getting up and taking action."
     </Message>
 
-    <Button>Dice</Button>
+    <DividerContainer>
+      <Divider />
+    </DividerContainer>
+
+    <DiceButton>
+      <ButtonIcon />
+    </DiceButton>
   </CardContainer>
 );
 
