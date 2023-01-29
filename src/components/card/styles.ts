@@ -47,7 +47,7 @@ export const DiceButton = styled.button`
   padding: 5px;
   position: absolute;
   bottom: -15px;
-  transition: 200ms ease-in-out;
+  transition: 100ms ease-in-out;
 
   &:hover {
     cursor: pointer;
